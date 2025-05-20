@@ -12,11 +12,11 @@ let hongikFestival = {
    
     lineup: {
    
-    day1: "KiiiKiii",
+    day1: "MC 동현, KiiiKiii, Changmo, Beenzino",
    
-    day2: "MADEIN",
+    day2: "규태씨, 심아일랜드, MADEIN, 이승윤",
    
-    day3: "AESPA",
+    day3: "철와우, 잔나비, AESPA, PSY, YB",
    
     }
    
@@ -48,4 +48,10 @@ let KiiiKiiiTag = document.createElement("p");
 
 KiiiKiiiTag.innerText = hongikFestival.lineup.day1;
 
+MadeinTag.innerText = hongikFestival.lineup.day2;
+
+AespaTag.innerText = hongikFestival.lineup.day3;
+
 sectionTag.appendChild(KiiiKiiiTag);
+sectionTag.appendChild(MadeinTag);
+sectionTag.appendChild(AespaTag);
