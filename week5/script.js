@@ -10,6 +10,10 @@ function render(data) {
         { 
             h2Tag.classList.add("line"); 
         }
+        else
+        {
+            h2Tag.classList.add("red");
+        }
 
         root.appendChild(h2Tag);
     }

@@ -16,4 +16,16 @@
 
 }
 
+#call:active{
+    background-color:greenyellow;
+}
+
+#call:hover{
+    background-color: teal;
+}
+
 .line { text-decoration: line-through; };
+
+.red{
+  color: red;
+}
